@@ -20,6 +20,10 @@
 			@theme {
 				--font-sans: "Poppins", sans-serif;
 				--font-inter: "Inter", sans-serif;
+
+				--color-mint-200: oklch(0.92 0.18 145)
+				--color-mint-400: oklch(0.78 0.25 145)
+				--color-mint-700: oklch(0.56 0.32 145)
 			}
 		</style>
 	</head>
@@ -49,13 +53,15 @@
 		</header>
 		<main>
 			<section class="flex flex-col md:flex-row bg-gray-300">
-				<div class="py-8 px-6 w md:w-3/5 flex flex-col justify-center">
+				<div class="my-8 mx-6 md:w-3/5 flex flex-col justify-center">
 					<img src="images/banner.jpg" alt="Colmar Academy Logo">
 				</div>
 				<div class="flex flex-col justify-center md:w-2/5">
-					<h1 class="text-6xl font-bold py-8 text-gray-600">Learn something new everyday</h1>
-					<p class="text-2xl text-gray-600 py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac semper magna.</p>
-					<a href="#" class="bg-gray-900 text-white py-2 px-4 self-start">Start learning</a>
+					<h1 class="text-6xl font-bold text-gray-600 pl-4">Learn something new everyday</h1>
+					<p class="text-2xl text-gray-600 my-6 pl-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac semper magna.</p>
+					<div class="bg-gray-600 flex items-center py-2 justify-center mr-6 ml-4">
+					<a href="#" class=" text-white">Start here</a>
+					</div>
 
 				</div>
 
