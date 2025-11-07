@@ -29,17 +29,28 @@
 	</head>
 
 	<body class="w-screen min-h-dvh">
-		<header class="py-4 px-6 flex items-center justify-between">
-			<div class="flex items-center justify-around">
-				<div class="flex"><img src="images/ic-logo.svg" alt="Colmar Academy Logo"></div>
-				<div class="block md:hidden"><img src="images/ic-on-campus.svg" alt="On campus" height="32px"></div>
-				<div class="block md:hidden"><img src="images/ic-online.svg" alt="Online" height="32px"></div>
-				<div class="block md:hidden"><img src="images/ic-login.svg" alt="login" height="32px"></div>
-				<span class="text-2xl font-bold md:flex hidden">COLMAR</span>
-				<span class="text-2xl hidden md:flex">ACADEMY</span>
+		<header class="py-4 px-6 flex items-center justify-between bg-white">
+			<div class="flex">
+				<div class="flex items-center justify-around w-96 md:w-auto">
+					<div class="flex">
+						<a href="#"><img src="images/ic-logo.svg" alt="Colmar Academy Logo"></a>
+					</div>
+					<div class="flex md:hidden">
+						<a href="#"><img src="images/ic-on-campus.svg" alt="On campus" height="32px"></a>
+					</div>
+					<div class="flex md:hidden">
+						<a href="#"><img src="images/ic-online.svg" alt="Online" height="32px"></a>
+					</div>
+					<div class="flex md:hidden">
+						<a href="#"><img src="images/ic-login.svg" alt="login" height="32px"></a>
+					</div>
+				</div>
+				<div class=" text-gray-600 hidden md:flex">
+					<span class="text-2xl font-bold "><a href="#">COLMAR</a></span>
+					<span class="text-2xl"><a href="#">ACADEMY</a></span>
+				</div>
 			</div>
 			<nav class="flex items-center justify-between space-x-4">
-
 				<div class="hidden md:flex"><a href="#" class="text-gray-500 hover:text-gray-900">On campus</a>
 				</div>
 				<div class="hidden md:flex"><a href="#" class="text-gray-500 hover:text-gray-900">Online</a>
@@ -52,22 +63,53 @@
 			
 		</header>
 		<main>
-			<section class="flex flex-col md:flex-row bg-gray-300">
-				<div class="my-8 mx-6 md:w-3/5 flex flex-col justify-center">
-					<img src="images/banner.jpg" alt="Colmar Academy Logo">
-				</div>
-				<div class="flex flex-col justify-center md:w-2/5">
-					<h1 class="text-6xl font-bold text-gray-600 pl-4">Learn something new everyday</h1>
-					<p class="text-2xl text-gray-600 my-6 pl-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac semper magna.</p>
-					<div class="bg-gray-600 flex items-center py-2 justify-center mr-6 ml-4">
-					<a href="#" class=" text-white">Start here</a>
+			<section class="flex flex-col md:flex-row bg-gray-300 gap-6">
+				<div class="md:w-3/5 w-screen flex">
+					<div class="md:m-6">
+						<img src="images/banner.jpg" alt="Colmar Academy Logo">
 					</div>
+				</div>
+				<div class="md:w-2/5 w-screen flex flex-col justify-center ">
+					<div class="md:text-5xl text-4xl font-bold text-gray-600 ml-4">
+						<h1>Learn something 
+						<br> new everyday</h1>
+					</div>
+					<div class="md:text-xl text-xl text-gray-600 my-6 ml-4 mr-6 md:mr-50 ">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="bg-gray-600 flex items-center py-2 justify-center md:mr-50 ml-4 mr-4 mb-8">
+						<a href="#" class=" text-white">Start here</a>
+					</div>
+				</div>
+			</section>
+			<section class="bg-gray-100 gap-6 flex flex-row">
+				<div class="md:w-3/5 w-screen flex md:flex-col flex-col gap-6">
+					<div class="md:mx-6 md:mt-8 hidden md:flex">
+						<img src="images/information-main.jpg" alt="information main">
+					</div>
+					<div class="md:ml-6 md:mt-8 hidden md:flex items-center md:text-5xl font-bold text-gray-600">
+						It doesn't hurt to keep practicing
+					</div>
+					<div class="md:ml-6 hidden md:flex items-center md:text-xl  text-gray-600">
+						<p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+					</div>
+					<div class="md:ml-6 md:mt-8 hidden md:flex items-center md:text-xl text-gray-600 mb-8">
+						<p>Emanuel, Sr Strategist at Hiring.com</p>
+					</div>
+				</div>
+				<div class="md:w-2/5 w-screen flex flex-row justify-center ">
+					<div>
+						<div class="flex md:w-2/5 w-screen">
+							<img src="images/information-orientation-mobile.jpg" alt="information orientation mobile">
+						</div>
+					</div>
+						<div>
 
+						</div>
+					</div>
 				</div>
 
-			</section>
-			<section class="information">
-
+				</div>
 			</section>
 			<section class="course">
 
