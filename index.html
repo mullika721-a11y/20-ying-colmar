@@ -25,17 +25,17 @@
 	</head>
 
 	<body class="w-screen min-h-dvh">
-		<header class="pt-4 pb-4 pl-6 pr-6 flex items-center justify-between">
-			<div class="flex items-center justify-between">
-				<div class=""><img src="images/ic-logo.svg" alt="Colmar Academy Logo"></div>
-				<div class="ml-1.5 block md:hidden"><img src="images/ic-on-campus.svg" alt="On campus"></div>
-				<div class="ml-1.5 block md:hidden"><img src="images/ic-online.svg" alt="Online"></div>
-				<div class="ml-1.5 block md:hidden"><img src="images/ic-login.svg" alt="login"></div>
+		<header class="py-4 px-6 flex items-center justify-between">
+			<div class="flex items-center justify-around">
+				<div class="flex"><img src="images/ic-logo.svg" alt="Colmar Academy Logo"></div>
+				<div class="block md:hidden"><img src="images/ic-on-campus.svg" alt="On campus" height="32px"></div>
+				<div class="block md:hidden"><img src="images/ic-online.svg" alt="Online" height="32px"></div>
+				<div class="block md:hidden"><img src="images/ic-login.svg" alt="login" height="32px"></div>
 				<span class="text-2xl font-bold md:flex hidden">COLMAR</span>
 				<span class="text-2xl hidden md:flex">ACADEMY</span>
 			</div>
-			<nav class="flex items-center">
-				<nav-desktop class="flex items-center justify-between space-x-4">
+			<nav class="flex items-center justify-between space-x-4">
+
 				<div class="hidden md:flex"><a href="#" class="text-gray-500 hover:text-gray-900">On campus</a>
 				</div>
 				<div class="hidden md:flex"><a href="#" class="text-gray-500 hover:text-gray-900">Online</a>
@@ -44,12 +44,20 @@
 				</div>
 				<div class="hidden md:flex"><a href="#" class="text-gray-500 hover:text-gray-900">Sign in</a>
 				</div>
-				</nav-desktop>
 			</nav>
 			
 		</header>
 		<main>
-			<section class="hero">
+			<section class="flex flex-col md:flex-row bg-gray-300">
+				<div class="py-8 px-6 w md:w-3/5 flex flex-col justify-center">
+					<img src="images/banner.jpg" alt="Colmar Academy Logo">
+				</div>
+				<div class="flex flex-col justify-center md:w-2/5">
+					<h1 class="text-6xl font-bold py-8 text-gray-600">Learn something new everyday</h1>
+					<p class="text-2xl text-gray-600 py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac semper magna.</p>
+					<a href="#" class="bg-gray-900 text-white py-2 px-4 self-start">Start learning</a>
+
+				</div>
 
 			</section>
 			<section class="information">
